@@ -209,7 +209,7 @@ __kernel void simulate_gravity( __global float3 *host_pos, __global float3_ *hos
 		\end{lstlisting}
 		
 	\section{Vergelijking}
-	In de tabel weergegeven in figuur \ref{tabel} ziet u de resultaten van onze metingen. Deze resultaten hebben we ook gevisualiseerd in een grafiek. Hier ziet u heel duidelijk dat hoe meer punter er berekend moeten worden, hoe groter het belang van parallellisatie is.
+	In de tabel weergegeven in figuur \ref{tabel} ziet u de resultaten van onze metingen. Deze resultaten hebben we ook gevisualiseerd in een grafiek. Hier ziet u heel duidelijk dat hoe meer punten er berekend moeten worden, hoe groter het belang van parallellisatie is.
 	
 	\begin{figure}[htbp]
 		\caption{Resultaten}
@@ -218,7 +218,6 @@ __kernel void simulate_gravity( __global float3 *host_pos, __global float3_ *hos
 	\end{figure}
 	\begin{figure}[htbp]
 		\caption{Grafiek}
-		\label{tabel}
 		\centerline{\includegraphics[height=7cm]{grafiek.jpg}}
 	\end{figure}
 
